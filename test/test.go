@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	fluenceapi "github.com/0xthresh/fluence-api-client-go"
+	fluenceapi "github.com/decentralized-infrastructure/fluence-api-client-go"
 )
 
 func main() {
