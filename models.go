@@ -16,6 +16,7 @@ type AddSshKey struct {
 
 // SshKey represents an SSH key object
 type SshKey struct {
+    ID          int64  `json:"id"`
     Name        string `json:"name"`
     Fingerprint string `json:"fingerprint"`
     Algorithm   string `json:"algorithm"`
